@@ -3,14 +3,21 @@ main {
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-
-  background: #f7f7f7;
+  background: #ebeef1;
 }
 
 .container {
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
+  background: #ebeef1;
+}
 
-  background: white;
+button {
+  background: #c2cdda;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid #c2cdda;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
 }
